@@ -1,0 +1,4 @@
+go-server*.zip
+/pkg/*
+/src/*
+go-server-*.pkg.tar.xz

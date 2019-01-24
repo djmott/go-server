@@ -1,19 +1,20 @@
 # Maintainer: Chase Patterson <chapatt at gmail dot com>
 pkgname=go-server
-pkgver=18.8.0
+pkgver=18.12.0
+_pkgver=$pkgver-8222
 pkgrel=1
 pkgdesc='GoCD (continuous delivery) server'
 arch=('any')
 url='http://gocd.org'
 license=('Apache')
-source=("go-server-18.8.0-7433.zip::https://download.gocd.org/binaries/18.8.0-7433/generic/go-server-18.8.0-7433.zip"
+source=("https://download.gocd.org/binaries/${_pkgver}/generic/${pkgname}-${_pkgver}.zip"
 	'go-server.service'
 	'go-server.sysusers'
 	'go-server.tmpfiles')
-sha1sums=('bff447077131dc42a02799035e82f440720dfddb'
-	  'bb3561783b91ee898e68fd83933c311a60253f33'
-	  'b4282bdc4e7a79aee74fdbf68ea2530b9cd13953'
-	  '18685b86c7fe33b95917188b0106b63fc517351b')
+sha1sums=('e7e0e8341704ba35e640c5642a11abb8e6fd75cf'
+          'bb3561783b91ee898e68fd83933c311a60253f33'
+          'b4282bdc4e7a79aee74fdbf68ea2530b9cd13953'
+          '18685b86c7fe33b95917188b0106b63fc517351b')
 depends=('java-runtime>=8')
 
 package()
