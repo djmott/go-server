@@ -1,7 +1,7 @@
 # Maintainer: Chase Patterson <chapatt at gmail dot com>
 pkgname=go-server
-pkgver=18.12.0
-_pkgver=$pkgver-8222
+pkgver=19.2.0
+_pkgver=$pkgver-8641
 pkgrel=1
 pkgdesc='GoCD (continuous delivery) server'
 arch=('any')
@@ -11,7 +11,7 @@ source=("https://download.gocd.org/binaries/${_pkgver}/generic/${pkgname}-${_pkg
 	'go-server.service'
 	'go-server.sysusers'
 	'go-server.tmpfiles')
-sha1sums=('e7e0e8341704ba35e640c5642a11abb8e6fd75cf'
+sha1sums=('a661934d451d7f173ae72bca86c54d78cdf21f7c'
           'bb3561783b91ee898e68fd83933c311a60253f33'
           'b4282bdc4e7a79aee74fdbf68ea2530b9cd13953'
           '18685b86c7fe33b95917188b0106b63fc517351b')
